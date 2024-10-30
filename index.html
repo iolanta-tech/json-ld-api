@@ -5818,8 +5818,9 @@
             otherwise, if the <a data-link-for="JsonLdOptions">compactToRelative</a> option is <strong>true</strong>,
             to the IRI of the currently being processed document, if available;
             otherwise to <code>null</code>.</li>
-          <li id="idl-compact-step-9">Set <var>compacted output</var> to the result of using the <a href="#compaction-algorithm">Compaction algorithm</a>,
-            using <a>active context</a>,
+          <li id="idl-compact-step-9">Set <var>compacted output</var> to the result of
+            using the <a href="#compaction-algorithm">Compaction algorithm</a>,
+            with <a>active context</a>,
             <code>null</code> for <var>active property</var>,
             <var>expanded input</var> as <var>element</var>,
             and the {{JsonLdOptions/compactArrays}}
