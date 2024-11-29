@@ -5732,7 +5732,9 @@
     </div>
 
     <ins cite="#change_5"><p>Methods resolving a {{Promise}} with the <a>internal representation</a>
-      MUST serialize to JSON (or another appropriate serialization format)
+      MUST either
+      map it to the datatype in used by the implementation, as described in <a href="#internal-representation-in-implementations" class="sectionRef"></a>,
+      or serialize it to JSON (or another appropriate serialization format)
       as described in <a href="#serialization-and-deserialization" class="sectionRef"></a>.</p></ins>
 
     <pre class="idl">
