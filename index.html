@@ -5733,7 +5733,7 @@
 
     <ins cite="#change_5"><p>Methods resolving a {{Promise}} with the <a>internal representation</a>
       MUST either
-      map it to the datatype in used by the implementation, as described in <a href="#internal-representation-in-implementations" class="sectionRef"></a>,
+      map it to the datatype used by the implementation, as described in <a href="#internal-representation-in-implementations" class="sectionRef"></a>,
       or serialize it to JSON (or another appropriate serialization format)
       as described in <a href="#serialization-and-deserialization" class="sectionRef"></a>.</p></ins>
 
@@ -6218,7 +6218,7 @@
       </table>
 
       <p>
-      The table below is only provided as an example.
+      The table above is only provided as an example.
         The mappings used for a particular implementation are out of scope for
         this specification.
       </p>
@@ -6249,7 +6249,7 @@
           <a>internal representation</a> as described in {{LoadDocumentCallback}};
         </dd>
 
-        <dt>To transform a JSON-LD document from the <a>internal representation</a>
+        <dt>To transform the <a>internal representation</a> to a JSON-LD document
         </dt>
         <dd>
           serialize to JSON [[RFC8259]] using an appropriate serializer (e.g.,
